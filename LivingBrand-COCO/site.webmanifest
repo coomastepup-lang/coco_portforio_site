@@ -1,0 +1,21 @@
+{
+  "name": "小さなお菓子屋さん COCO",
+  "short_name": "COCO",
+  "description": "安心して、おいしい。小さなお菓子屋さん COCOのLiving Brand。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f8f6f2",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
