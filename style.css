@@ -6,3 +6,238 @@
 @media(min-width:900px){.story-block{grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);align-items:center}}
 @media(max-width:768px){body{font-size:1rem}.site-header{height:72px}.site-logo{width:50px;height:50px}.hero{min-height:78svh;place-items:end start}.hero__image{object-position:62% center}.hero__veil{background:linear-gradient(90deg,rgba(255,255,255,.84),rgba(255,255,255,.52) 58%,rgba(255,255,255,.12))}.hero__content{padding-bottom:6.5rem}.hero__name{font-size:clamp(1.9rem,8vw,2.7rem)}.hero__title{font-size:clamp(2.7rem,12vw,4rem)}.hero__lead{margin-top:1.5rem}.hero__scroll{display:none}.section__title{font-size:clamp(2rem,9vw,3rem)}.story-block__media img{max-height:none}.site-footer{padding:5rem 0 3.5rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+/* ===== Release 1.2 emergency fix ===== */
+
+.header-instagram{
+  font-family:var(--ui);
+  font-size:.9rem;
+  letter-spacing:.08em;
+}
+
+.hero__overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    90deg,
+    rgba(255,255,255,.72) 0%,
+    rgba(255,255,255,.3) 48%,
+    rgba(255,255,255,.05) 100%
+  );
+}
+
+.section-title{
+  margin:0;
+  font-size:clamp(2.1rem,4vw,3.45rem);
+  font-weight:400;
+  line-height:1.45;
+  letter-spacing:.04em;
+}
+
+.section-title--center{
+  text-align:center;
+  margin-inline:auto;
+}
+
+.section-text{
+  margin-top:2rem;
+  max-width:36rem;
+}
+
+.section-text p{
+  margin:0;
+}
+
+.section-text p + p{
+  margin-top:1.35rem;
+}
+
+.section-text--center{
+  margin-inline:auto;
+  text-align:center;
+}
+
+.section--brand{
+  padding-block:clamp(8rem,15vw,15rem);
+}
+
+.story{
+  display:grid;
+  gap:clamp(3.5rem,7vw,6.5rem);
+}
+
+.story__image{
+  margin:0;
+  width:100%;
+  overflow:hidden;
+}
+
+.story__image img{
+  display:block;
+  width:100%;
+  max-height:760px;
+  object-fit:cover;
+}
+
+.story__image--portrait img{
+  max-height:900px;
+}
+
+.story__content{
+  max-width:680px;
+}
+
+.gallery-item{
+  margin-inline:auto;
+}
+
+.gallery-item + .gallery-item{
+  margin-top:clamp(9rem,18vw,16rem);
+}
+
+.gallery-item img{
+  display:block;
+  width:100%;
+  height:auto;
+  object-fit:cover;
+}
+
+.gallery-item figcaption{
+  margin-top:clamp(2rem,5vw,3.5rem);
+  text-align:center;
+  font-size:clamp(1rem,1.5vw,1.18rem);
+  line-height:2;
+}
+
+.gallery-item--wide{
+  max-width:920px;
+}
+
+.gallery-item--narrow{
+  max-width:760px;
+}
+
+.section--instagram{
+  padding-block:clamp(8rem,15vw,15rem);
+  text-align:center;
+}
+
+.instagram-link{
+  margin-top:2.5rem;
+  text-align:center;
+}
+
+.instagram-link a{
+  display:inline-block;
+  border-bottom:1px solid currentColor;
+  padding-bottom:.35rem;
+}
+
+.site-footer__inner{
+  text-align:center;
+}
+
+.footer-logo{
+  display:block;
+  width:min(200px,45vw);
+  height:auto;
+  margin-inline:auto;
+  border-radius:50%;
+}
+
+.footer-name{
+  margin-top:2rem;
+  font-size:1.35rem;
+  letter-spacing:.12em;
+}
+
+.footer-shop,
+.footer-instagram{
+  margin-top:1.5rem;
+}
+
+.copyright{
+  display:block;
+  margin-top:2.5rem;
+  color:var(--muted);
+  font-family:var(--ui);
+  font-size:.78rem;
+}
+
+.mobile-break{
+  display:none;
+}
+
+@media (min-width:900px){
+  .story{
+    grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);
+    align-items:center;
+  }
+}
+
+@media (max-width:768px){
+  body{
+    font-size:1rem;
+    overflow-x:hidden;
+  }
+
+  .container,
+  .container--wide,
+  .container--narrow{
+    width:calc(100% - 32px);
+  }
+
+  .hero{
+    min-height:78svh;
+    place-items:end start;
+  }
+
+  .hero__image{
+    object-position:62% center;
+  }
+
+  .hero__overlay{
+    background:linear-gradient(
+      90deg,
+      rgba(255,255,255,.88) 0%,
+      rgba(255,255,255,.58) 60%,
+      rgba(255,255,255,.12) 100%
+    );
+  }
+
+  .hero__content{
+    padding-bottom:6rem;
+  }
+
+  .hero__name{
+    font-size:clamp(1.9rem,8vw,2.7rem);
+  }
+
+  .hero__title{
+    font-size:clamp(2.7rem,12vw,4rem);
+  }
+
+  .section-title{
+    font-size:clamp(2rem,9vw,3rem);
+  }
+
+  .story{
+    display:block;
+  }
+
+  .story__image{
+    margin-bottom:2.75rem;
+  }
+
+  .story__image img,
+  .story__image--portrait img{
+    max-height:none;
+  }
+
+  .gallery-item + .gallery-item{
+    margin-top:7rem;
+  }
+
+  .mobile-break{
+    display:block;
+  }
+}
