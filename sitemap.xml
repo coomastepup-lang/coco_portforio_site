@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f2">
+  <meta name="description" content="植物性油脂やマーガリンを使わず、北海道産の純正クリームとバターを使用した安心できるお菓子づくり。宮崎県日南市『小さなお菓子屋さん COCO』パティシエ・前田多映のLiving Brand。">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <title>前田多映｜小さなお菓子屋さん COCO｜安心して、おいしい。</title>
+
+  <!-- 公開URL決定後、example.comを正式URLへ置き換えてください。 -->
+  <link rel="canonical" href="https://example.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="小さなお菓子屋さん COCO">
+  <meta property="og:title" content="前田多映｜安心して、おいしい。｜小さなお菓子屋さん COCO">
+  <meta property="og:description" content="植物性油脂やマーガリンを使わず、北海道産の純正クリームとバターを使用した安心できるお菓子づくり。">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://example.com/ogp.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="前田多映『安心して、おいしい。』小さなお菓子屋さん COCO">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="前田多映｜安心して、おいしい。">
+  <meta name="twitter:description" content="宮崎県日南市、小さなお菓子屋さん COCO。見えないところほど、丁寧に。">
+  <meta name="twitter:image" content="https://example.com/ogp.jpg">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&family=Noto+Serif+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="preload" href="assets/images/hero.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "前田 多映",
+        "jobTitle": "パティシエ・オーナーシェフ",
+        "worksFor": {"@id": "https://example.com/#bakery"}
+      },
+      {
+        "@type": "Bakery",
+        "@id": "https://example.com/#bakery",
+        "name": "小さなお菓子屋さん COCO",
+        "description": "植物性油脂やマーガリンを使わず、北海道産の純正クリームとバターを使用する洋菓子店。",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "宮崎県",
+          "addressLocality": "日南市",
+          "addressCountry": "JP"
+        },
+        "sameAs": ["https://www.instagram.com/coco_nichinan/"]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="site-logo" href="#top" aria-label="前田多映｜小さなお菓子屋さん COCO トップへ">
+        <img src="assets/images/logo.webp" width="1536" height="1536" alt="小さなお菓子屋さん COCO ロゴ">
+      </a>
+      <nav aria-label="外部リンク">
+        <a class="text-link text-link--header" href="https://www.instagram.com/coco_nichinan/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero__image" src="assets/images/hero.webp" width="1800" height="1200" alt="生クリームを丁寧に絞る手元" fetchpriority="high">
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="hero__name">前田 多映</p>
+        <h1 class="hero__title" id="hero-title">安心して、<br>おいしい。</h1>
+        <p class="hero__lead">毎日変わらず、<br>安心して食べられる<br>お菓子を。</p>
+      </div>
+      <a class="hero__scroll" href="#brand" aria-label="次のセクションへ移動">Scroll</a>
+    </section>
+
+    <section class="section section--quiet" id="brand" aria-labelledby="brand-title">
+      <div class="container container--narrow reveal">
+        <h2 class="section__title section__title--center" id="brand-title">安心は、<br>おいしさの一部です。</h2>
+        <p class="section__body section__body--center">おいしさは、<br>味だけではありません。</p>
+        <p class="section__body section__body--center">安心して食べられること。<br>大切な人にも贈れること。<br>また食べたくなること。</p>
+        <p class="section__body section__body--center">それが、おいしさです。</p>
+      </div>
+    </section>
+
+    <section class="section" id="ingredients" aria-labelledby="ingredients-title">
+      <div class="container story-block reveal">
+        <figure class="story-block__media">
+          <img src="assets/images/butter.webp" width="926" height="1066" alt="白い皿に盛られたバター" loading="lazy" decoding="async">
+        </figure>
+        <div class="story-block__copy">
+          <p class="eyebrow" lang="en">Ingredients</p>
+          <h2 class="section__title" id="ingredients-title">安心は、<br>素材から始まります。</h2>
+          <p class="section__body">植物性油脂は使いません。<br>マーガリンも使いません。</p>
+          <p class="section__body">北海道産の純正クリーム。<br>北海道産のバター。</p>
+          <p class="section__body">見えないところほど、<br>丁寧に選ぶ。</p>
+          <p class="section__body">その積み重ねが、<br>安心につながると信じています。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface" id="craftsmanship" aria-labelledby="craft-title">
+      <div class="container story-block reveal">
+        <figure class="story-block__media story-block__media--portrait">
+          <img src="assets/images/cream.webp" width="926" height="1058" alt="ケーキに生クリームを絞る手元" loading="lazy" decoding="async">
+        </figure>
+        <div class="story-block__copy">
+          <p class="eyebrow" lang="en">Craftsmanship</p>
+          <h2 class="section__title" id="craft-title">見えないところほど、<br>丁寧に。</h2>
+          <p class="section__body">完成したお菓子を見る人はいても、<br>その途中を見る人は、<br>あまりいません。</p>
+          <p class="section__body">だからこそ、<br>誰も見ていない時間を<br>大切にしています。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="container container--wide">
+        <h2 class="visually-hidden" id="gallery-title">お菓子のギャラリー</h2>
+
+        <figure class="gallery-piece gallery-piece--narrow reveal">
+          <img src="assets/images/tart.webp" width="832" height="1280" alt="季節の果物を彩り豊かに飾ったタルト" loading="lazy" decoding="async">
+          <figcaption>丁寧につくることは、<br>特別なことではありません。</figcaption>
+        </figure>
+
+        <figure class="gallery-piece gallery-piece--wide reveal">
+          <img src="assets/images/chocolate.webp" width="846" height="1151" alt="艶やかなチョコレートケーキ" loading="lazy" decoding="async">
+          <figcaption>毎日変わらないように。<br>毎日少しずつ変えながら。</figcaption>
+        </figure>
+
+        <figure class="gallery-piece gallery-piece--medium reveal">
+          <img src="assets/images/baked.webp" width="1008" height="954" alt="さまざまな焼き菓子を詰め合わせた箱" loading="lazy" decoding="async">
+          <figcaption>今日も、<br>誰かのおやつになりますように。</figcaption>
+        </figure>
+
+        <div class="gallery-pair" aria-label="お菓子の写真">
+          <figure class="gallery-pair__item reveal">
+            <img src="assets/images/macarons.webp" width="1124" height="1400" alt="やさしい色合いのマカロン" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-pair__item reveal">
+            <img src="assets/images/orange-chocolate.webp" width="1193" height="1319" alt="オレンジにチョコレートを合わせた焼き菓子" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gift" aria-labelledby="gift-title">
+      <div class="container story-block reveal">
+        <figure class="story-block__media story-block__media--landscape">
+          <img src="assets/images/gift.webp" width="1170" height="775" alt="COCOのギフトボックスと焼き菓子の包装" loading="lazy" decoding="async">
+        </figure>
+        <div class="story-block__copy">
+          <p class="eyebrow" lang="en">Gift</p>
+          <h2 class="section__title" id="gift-title">贈るのは、<br>お菓子だけではありません。</h2>
+          <p class="section__body">「ありがとう。」<br>「おめでとう。」<br>「元気でいてね。」</p>
+          <p class="section__body">その気持ちも、<br>そっと包んでいます。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface" id="coco" aria-labelledby="coco-title">
+      <div class="container story-block reveal">
+        <figure class="story-block__media story-block__media--landscape">
+          <img src="assets/images/shop.webp" width="1339" height="1175" alt="レンガと木のぬくもりを感じる小さなお菓子屋さん COCOの店内" loading="lazy" decoding="async">
+        </figure>
+        <div class="story-block__copy">
+          <p class="eyebrow" lang="en">COCO</p>
+          <h2 class="section__title" id="coco-title">この場所で、<br>今日も変わらず。</h2>
+          <p class="section__body">大きなお店ではありません。<br>たくさん作れるお店でもありません。</p>
+          <p class="section__body">だからこそ、<br>ひとつひとつを、<br>丁寧に。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--instagram" aria-labelledby="instagram-title">
+      <div class="container container--narrow reveal">
+        <h2 class="section__title section__title--center" id="instagram-title">季節のお菓子や、<br>今日のお知らせはInstagramで。</h2>
+        <p class="instagram-link-wrap"><a class="text-link text-link--large" href="https://www.instagram.com/coco_nichinan/" target="_blank" rel="noopener noreferrer">Instagramを見る</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner reveal">
+      <img class="site-footer__logo" src="assets/images/logo.webp" width="1536" height="1536" alt="小さなお菓子屋さん COCO ロゴ">
+      <p class="site-footer__name">前田 多映</p>
+      <p>小さなお菓子屋さん COCO<br>宮崎県日南市</p>
+      <p><a class="text-link" href="https://www.instagram.com/coco_nichinan/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+      <small>© COCO All Rights Reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
